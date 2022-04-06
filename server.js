@@ -153,14 +153,7 @@ router.delete("/carrito/:id/productos/:idprod", (req, res) => {
           res.send(carritos);
         }
       });
-      //   productos.map((ep) => {
-      //     if (ep.id === parseInt(req.params.idprod)) {
-      //       console.log(e.productos);
-      //       //   const ind = e.productos.indexOf(ep);
-      //       //   e.productos.splice(ind, 1);
-      //       res.send(carritos);
-      //     }
-      //   });
+      
     }
   });
 });
