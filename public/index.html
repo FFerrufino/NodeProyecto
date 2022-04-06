@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Nuevo producto</h1>
+    <form action="/api/productos" method="post">
+      <label for="title">title</label>
+      <input type="text" name="title" id="title" /><br />
+      <label for="price">price</label>
+      <input type="text" name="price" id="price" /><br />
+      <label for="thumbnail">thumbnail</label>
+      <input type="text" name="thumbnail" id="thumbnail" /><br />
+      <label for="stock">stock</label>
+      <input type="text" name="stock" id="stock" /><br />
+      <label for="description">description</label>
+      <input type="text" name="description" id="description" /><br />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
